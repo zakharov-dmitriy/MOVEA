@@ -388,13 +388,13 @@ input {
 }
 
 .aside__wrap::before {
-   content: " ";
+   content: url(../images/decor-btn.svg);
    position: absolute;
    width: 22px;
    height: 26px;
    top: 62px;
    right: -48px;
-   background: url(../images/decor-btn.svg);
+   /* background: url(../images/decor-btn.svg); */
 }
 
 
