@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>MOVEA</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="css/fonts.css">
+   <link rel="stylesheet" href="css/all.min.css"> <!-- Font Awesome -->
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+   <link rel="stylesheet" href="css/slick.css">
+   <link rel="stylesheet" href="css/slyle.css">
+</head>
+
+<body>
+   <div class="grid-init grid">
+      <header class="header">
+         <div class="header__wrap">
+            <a class="header__logo" href="#">
+               <img class="logo" src="images/logo.svg" alt="logo">
+            </a>
+            <nav class="header__nav">
+               <ul class="header__list">
+                  <li class="header__list-item header__list-item--active">
+                     <a class="header__list-link" href="#">Movies</a>
+                  </li>
+                  <li class="header__list-item">
+                     <a class="header__list-link" href="#">TV shows</a>
+                  </li>
+                  <li class="header__list-item">
+                     <a class="header__list-link" href="#">Aniamations</a>
+                  </li>
+                  <li class="header__list-item">
+                     <a class="header__list-link" href="#">Plans</a>
+                  </li>
+               </ul>
+            </nav>
+            <div class="header__search">
+               <input class="header__input" type="text" placeholder="Search..">
+               <button class="header__lens">
+                  <img class="header__lens-img" src="images/lens.svg" alt="лупа">
+               </button>
+            </div>
+            <div class="header__date">
+               <span class="header__hours">19:55</span>
+               <span class="header__days">March 30</span>
+            </div>
+            <img class="header__avatar" src="images/avatar.png" alt="avatar">
+         </div>
+      </header>
+      <aside class="aside box-init">
+         <div class="aside__wrap">
+            <div class="aside__header">
+               <h3 class="aside__title">New trailers</h3>
+               <div class="aside__sorting">
+                  <p class="aside__sorting-text">Sort By</p>
+                  <p class="aside__sorting-select">Today</p>
+               </div>
+            </div>
+            <div class="aside__item" style="background-image: url(images/aside-img.jpg);">
+               <div class="aside__item-info">
+                  <button class="button-play" type="button">
+                     <img class="button-play__img" src="images/play.svg" alt="play button">
+                  </button>
+                  <p class="aside__item-views">Views 4.5k</p>
+                  <div class="aside__item-footer">
+                     <h4 class="aside__item-title trailer-title">Batman 2022</h4>
+                     <p class="aside__item-date trailer-date">Dec 2022</p>
+                  </div>
+               </div>
+            </div>
+            <div class="aside__item" style="background-image: url(images/aside-img.jpg);">
+               <div class="aside__item-info">
+                  <button class="button-play" type="button">
+                     <img class="button-play__img" src="images/play.svg" alt="play button">
+                  </button>
+                  <p class="aside__item-views">Views 4.5k</p>
+                  <div class="aside__item-footer">
+                     <h4 class="aside__item-title trailer-title">Batman 2022</h4>
+                     <p class="aside__item-date trailer-date">Dec 2022</p>
+                  </div>
+               </div>
+            </div>
+            <div class="aside__footer">
+               <div class="aside__footer-top">
+                  <h4 class="aside__footer-title">Favourite genres</h4>
+                  <div class="aside__footer-genres">
+                     <div class="aside__footer-genre --purpur">Action</div>
+                     <div class="aside__footer-genre --orange">Western</div>
+                     <div class="aside__footer-genre --purpur">Adventures</div>
+                     <div class="aside__footer-genre --orange">Drama</div>
+                     <div class="aside__footer-genre --green">Comedy</div>
+                  </div>
+               </div>
+               <div class="aside__footer-bottom">
+                  <div class="aside__add">
+                     <div class="aside__add-round">+</div>
+                     <p class="aside__add-text">Add your favourite genres</p>
+                  </div>
+                  <div class="aside__genre-items">
+                     <div class="aside__footer-genre">Drama</div>
+                     <div class="aside__footer-genre">Comedy</div>
+                     <div class="aside__footer-genre">Western</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </aside>
+      <main class="main">
+         <section class="main__display">
+            <div class="main__display-trailer">
+               <div class="main__display-views">Views 77k</div>
+               <div class="main__display-name">
+                  <h3 class="main__display-title trailer-title">Spider-Man: No Way Home</h3>
+                  <span class="main__display-date trailer-date">Feb 2021</span>
+               </div>
+               <button class="button-play" type="button">
+                  <img class="button-play__img" src="images/play.svg" alt="play button">
+               </button>
+            </div>
+
+            <div class="main__display-tranding">
+               <div class="tranding__header">
+                  <div class="tranding__main">
+                     <h4 class="tranding__header-title">Continue Watching</h4>
+                     <div class="tranding__header-count">4 Movies</div>
+                  </div>
+                  <a class="tranding__link" href="#">All movies</a>
+               </div>
+               <div class="tranding__inner">
+                  <div class="tranding__item" style="background-image: url(images/tranding-01.jpg)">
+                     <div class="tarnding__top">
+                        <div class="tranding__top-text"> #1 Tranding</div>
+                     </div>
+                     <div class="tranding__bottom">
+                        <button class="button-play small-btn" type="button">
+                           <img class="button-play__img" src="images/play.svg" alt="play button">
+                        </button>
+                        <div class="tranding__bottom-name">
+                           <h4 class="tranding__bottom-title">Spider-Man: No Way Home</h4>
+                           <div class="tranding__bottom-date">Feb 2021</div>
+                        </div>
+                        <span class="tranding__bottom-time">02:30:00</span>
+                     </div>
+                  </div>
+                  <div class="tranding__item" style="background-image: url(images/tranding-01.jpg)">
+                     <div class="tranding__bottom">
+                        <button class="button-play small-btn" type="button">
+                           <img class="button-play__img" src="images/play.svg" alt="play button">
+                        </button>
+                        <div class="tranding__bottom-name">
+                           <h4 class="tranding__bottom-title">Spider-Man: No Way Home</h4>
+                           <div class="tranding__bottom-date">Feb 2021</div>
+                        </div>
+                        <span class="tranding__bottom-time">02:30:00</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="main__display-tranding">
+               <div class="tranding__header">
+                  <div class="tranding__main">
+                     <h4 class="tranding__header-title">Popular movies 2021</h4>
+                  </div>
+                  <a class="tranding__link" href="#">All movies</a>
+               </div>
+               <div class="popular__inner">
+                  <div class="popular__item" style="background-image: url(images/popular-01.jpg)">
+                     <div class="popular__bottom">
+                        <button class="button-play small-btn" type="button">
+                           <img class="button-play__img" src="images/play.svg" alt="play button">
+                        </button>
+                        <div class="popular__bottom-name">
+                           <h4 class="popular__bottom-title">Spider-Man: No Way Home</h4>
+                           <div class="popular__bottom-date">Feb 2021</div>
+                        </div>
+                        <span class="popular__bottom-raiting">4.7</span>
+                     </div>
+                  </div>
+                  <div class="popular__item" style="background-image: url(images/popular-01.jpg)">
+                     <div class="popular__bottom">
+                        <button class="button-play small-btn" type="button">
+                           <img class="button-play__img" src="images/play.svg" alt="play button">
+                        </button>
+                        <div class="popular__bottom-name">
+                           <h4 class="popular__bottom-title">Spider-Man: No Way Home</h4>
+                           <div class="popular__bottom-date">Feb 2021</div>
+                        </div>
+                        <span class="popular__bottom-raiting">4.7</span>
+                     </div>
+                  </div>
+                  <div class="popular__item" style="background-image: url(images/popular-01.jpg)">
+                     <div class="popular__bottom">
+                        <button class="button-play small-btn" type="button">
+                           <img class="button-play__img" src="images/play.svg" alt="play button">
+                        </button>
+                        <div class="popular__bottom-name">
+                           <h4 class="popular__bottom-title">Spider-Man: No Way Home</h4>
+                           <div class="popular__bottom-date">Feb 2021</div>
+                        </div>
+                        <span class="popular__bottom-raiting">4.7</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+   </div>
+
+
+   <script src="js/jquery-3.5.1.min.js"></script>
+   <script src="js/jquery.fancybox.min.js"></script>
+   <script src="js/slick.min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+
+</html>
