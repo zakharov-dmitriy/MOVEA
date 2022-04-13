@@ -541,9 +541,13 @@ input {
    background-color: rgba(5, 5, 5, 0.5);
 }
 .modal__inner {
-   width: 1080px;
-   height: 720px;
+   width: 720px;
+   height: 480px;
 }
 .active {
    display: flex;
+}
+.stop {
+   /* border: red solid 10px; */
+   display: none;
 }
